@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="da">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Legaftale Form</title>
+</head>
+<body>
+    <h1>Vælg dit navn og legeaftale!</h1>
+
+    <form id="legeaftaleForm">
+        <label for="name">Dit navn:</label><br>
+        <input type="text" id="name" name="name" required><br><br>
+
+        <label for="playmate">Hvem har du legeaftale med?</label><br>
+        <select id="playmate" name="playmate" required>
+            <option value="Elliot">Elliot</option>
+            <option value="Anton">Anton</option>
+            <option value="Linus">Linus</option>
+            <!-- Tilføj flere personer her -->
+        </select><br><br>
+
+        <button type="submit">Send legeaftale</button>
+    </form>
+
+    <script src="script.js"></script>
+</body>
+</html>
+
+
