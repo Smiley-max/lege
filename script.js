@@ -5,7 +5,7 @@ document.getElementById("legeaftaleForm").addEventListener("submit", function(e)
     const playmate = document.getElementById("playmate").value;
 
     // Discord Webhook URL (indsæt din egen her)
-    const webhookURL = "https://discord.com/api/webhooks/1351134584082927637/mmp9Fz2lO-5oFQDlZR3ycYi7Q40CRiDx-jJNoxfc1aBJcjVZ0qEB11aZrPIaAYT2swB9";
+    const webhookURL = "PRIVAT!";
 
     // Payload, der sendes til Discord
     const data = {
